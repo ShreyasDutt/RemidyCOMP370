@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="flex justify-between items-center mb-8">
                     <div>
                         <h1 className="text-4xl font-bold text-gray-800 mb-2">Health Dashboard</h1>
-                        <p className="text-gray-500">Welcome back! Let's check your health</p>
+                        <p className="text-gray-500">Welcome back! Let&apos;s check your health</p>
                     </div>
                     <UserButton/>
                 </div>

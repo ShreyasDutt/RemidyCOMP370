@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Med from "/public/medicine1.png";
 import ReminderDates from "@/app/Components/ReminderDates";
-import { IoMdArrowBack } from "react-icons/io";
-import Link from "next/link";
 import Bottomnav from "@/app/Components/Bottomnav";
 import { GiPill } from "react-icons/gi";
 
