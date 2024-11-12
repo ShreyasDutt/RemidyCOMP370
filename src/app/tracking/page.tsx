@@ -1,5 +1,6 @@
 import { FaDumbbell, FaFire, FaPills, FaTint, FaWalking } from "react-icons/fa";
 import Bottomnav from "@/app/Components/Bottomnav";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -62,18 +63,16 @@ export default function Page() {
                         </div>
 
                         {/* Water Reminder - Spans 2 columns */}
-                        <div className="col-span-2 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <Link href={"tracking/waterintake"} className="col-span-2 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl p-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center space-x-4">
                                     <FaTint className="text-3xl text-white/90" />
                                     <div>
-                                        <p className="text-white text-lg font-medium">Water Reminder</p>
-                                        <span className="text-sm text-white/60">Every 2 hours</span>
+                                        <p className="text-white text-lg font-medium">Water Tracker</p>
                                     </div>
                                 </div>
-                                <span className="text-emerald-300 font-medium">Active</span>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
@@ -82,6 +81,10 @@ export default function Page() {
                     <Bottomnav />
                 </div>
             </div>
+
+
+
         </div>
     );
 }
+
